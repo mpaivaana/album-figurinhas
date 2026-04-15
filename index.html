@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Álbum de Figurinhas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="style.css" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Uncial+Antiqua&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="stars" id="stars"></div>
+
+<div class="page-container">
+
+  <header class="header">
+    <span class="header-ornament">✦ ✦ ✦</span>
+    <h1>Um livro de horas, histórias e memórias</h1>
+    <p class="flourish">⸻ ❧ ⸻</p>
+    <p>Paula, 25 anos — celebrando a existência de uma pessoa extraordinária</p>
+  </header>
+
+  <div class="cover-overlay" id="coverOverlay">
+    <div class="cover-book">
+      <div class="cover-spine"></div>
+      <div class="cover-face">
+        <div class="cover-corner cover-corner-tl">
+          <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 55 Q5 5 55 5" stroke="#d4a843" stroke-width="1.2" fill="none"/>
+            <path d="M5 55 Q5 28 28 28" stroke="#d4a843" stroke-width="0.6" fill="none" opacity="0.5"/>
+            <circle cx="5" cy="55" r="3" fill="#b8860b"/>
+            <circle cx="55" cy="5" r="2" fill="#d4a843" opacity="0.6"/>
+            <circle cx="28" cy="28" r="2" fill="#b8860b" opacity="0.7"/>
+            <path d="M5 25 Q15 25 15 5" stroke="#d4a843" stroke-width="0.5" fill="none" opacity="0.4"/>
+          </svg>
+        </div>
+        <div class="cover-corner cover-corner-tr">
+          <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 55 Q5 5 55 5" stroke="#d4a843" stroke-width="1.2" fill="none"/>
+            <path d="M5 55 Q5 28 28 28" stroke="#d4a843" stroke-width="0.6" fill="none" opacity="0.5"/>
+            <circle cx="5" cy="55" r="3" fill="#b8860b"/>
+            <circle cx="55" cy="5" r="2" fill="#d4a843" opacity="0.6"/>
+            <circle cx="28" cy="28" r="2" fill="#b8860b" opacity="0.7"/>
+          </svg>
+        </div>
+        <div class="cover-corner cover-corner-bl">
+          <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 55 Q5 5 55 5" stroke="#d4a843" stroke-width="1.2" fill="none"/>
+            <path d="M5 55 Q5 28 28 28" stroke="#d4a843" stroke-width="0.6" fill="none" opacity="0.5"/>
+            <circle cx="5" cy="55" r="3" fill="#b8860b"/>
+            <circle cx="55" cy="5" r="2" fill="#d4a843" opacity="0.6"/>
+          </svg>
+        </div>
+        <div class="cover-corner cover-corner-br">
+          <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 55 Q5 5 55 5" stroke="#d4a843" stroke-width="1.2" fill="none"/>
+            <path d="M5 55 Q5 28 28 28" stroke="#d4a843" stroke-width="0.6" fill="none" opacity="0.5"/>
+            <circle cx="5" cy="55" r="3" fill="#b8860b"/>
+            <circle cx="55" cy="5" r="2" fill="#d4a843" opacity="0.6"/>
+          </svg>
+        </div>
+
+        <div class="cover-top-ornament">✦ ✦ ✦</div>
+        <div class="cover-ruling cover-ruling-top"></div>
+
+        <p class="cover-subtitle-top">Um livro de horas, histórias e memórias</p>
+        <div class="cover-monogram">❧</div>
+        <h1 class="cover-title">Paula<br>25 anos</h1>
+        <div class="cover-flourish">⸻ ◈ ⸻</div>
+        <p class="cover-subtitle">celebrando a existência<br>de uma pessoa extraordinária</p>
+
+        <div class="cover-ruling cover-ruling-bottom"></div>
+
+        <button class="cover-open-btn" id="coverOpenBtn">
+          <span class="cover-btn-ornament">✦</span>
+          Abrir o Álbum
+          <span class="cover-btn-ornament">✦</span>
+        </button>
+        <p class="cover-hint">clique para começar</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="album-book" id="albumBook">
+
+    <div class="corner corner-tl">
+      <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 46 Q4 4 46 4" stroke="#b8860b" stroke-width="1" fill="none"/>
+        <path d="M4 46 Q4 24 24 24" stroke="#b8860b" stroke-width="0.5" fill="none" opacity="0.5"/>
+        <circle cx="4" cy="46" r="2.5" fill="#b8860b"/>
+        <circle cx="46" cy="4" r="2" fill="#d4a843" opacity="0.6"/>
+        <circle cx="24" cy="24" r="1.5" fill="#b8860b" opacity="0.7"/>
+        <path d="M4 20 Q12 20 12 4" stroke="#b8860b" stroke-width="0.5" fill="none" opacity="0.4"/>
+      </svg>
+    </div>
+    <div class="corner corner-tr">
+      <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 46 Q4 4 46 4" stroke="#b8860b" stroke-width="1" fill="none"/>
+        <path d="M4 46 Q4 24 24 24" stroke="#b8860b" stroke-width="0.5" fill="none" opacity="0.5"/>
+        <circle cx="4" cy="46" r="2.5" fill="#b8860b"/>
+        <circle cx="46" cy="4" r="2" fill="#d4a843" opacity="0.6"/>
+        <circle cx="24" cy="24" r="1.5" fill="#b8860b" opacity="0.7"/>
+      </svg>
+    </div>
+    <div class="corner corner-bl">
+      <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 46 Q4 4 46 4" stroke="#b8860b" stroke-width="1" fill="none"/>
+        <path d="M4 46 Q4 24 24 24" stroke="#b8860b" stroke-width="0.5" fill="none" opacity="0.5"/>
+        <circle cx="4" cy="46" r="2.5" fill="#b8860b"/>
+        <circle cx="46" cy="4" r="2" fill="#d4a843" opacity="0.6"/>
+        <circle cx="24" cy="24" r="1.5" fill="#b8860b" opacity="0.7"/>
+      </svg>
+    </div>
+    <div class="corner corner-br">
+      <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 46 Q4 4 46 4" stroke="#b8860b" stroke-width="1" fill="none"/>
+        <path d="M4 46 Q4 24 24 24" stroke="#b8860b" stroke-width="0.5" fill="none" opacity="0.5"/>
+        <circle cx="4" cy="46" r="2.5" fill="#b8860b"/>
+        <circle cx="46" cy="4" r="2" fill="#d4a843" opacity="0.6"/>
+        <circle cx="24" cy="24" r="1.5" fill="#b8860b" opacity="0.7"/>
+      </svg>
+    </div>
+
+    <div class="album-title-bar">
+      <button class="back-to-cover-btn" id="backToCoverBtn" title="Voltar à capa">❧</button>
+      <h2>Coleção de Momentos</h2>
+      <p class="page-num" id="pageNum">— página I —</p>
+    </div>
+
+    <div class="stickers-grid" id="stickersGrid">
+    </div>
+
+    <div class="progress-wrap">
+      <p class="progress-label" id="progressLabel">0 de 0 figurinhas coladas</p>
+      <div class="progress-bar-bg">
+        <div class="progress-bar-fill" id="progressFill" style="width: 0%"></div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+<div class="pack-tray" id="packTray">
+  <div class="tray-tab" id="trayTab">✦ figurinhas para colar ✦</div>
+  <div class="tray-body" id="trayBody">
+    <div class="tray-header">
+      <h3>Envelopes</h3>
+      <span class="tray-count" id="trayCount">0 figurinhas restantes</span>
+    </div>
+    <div class="packs-row" id="packsRow">
+    </div>
+  </div>
+</div>
+
+<div class="lightbox" id="lightbox">
+  <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+  <div class="lightbox-frame">
+    <button class="lightbox-close" id="lightboxClose">×</button>
+    <img id="lightboxImg" src="" alt="">
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+</div>
+
+ <script src="script.js"></script>
+
+</body>
+</html>
